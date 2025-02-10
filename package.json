@@ -6,6 +6,7 @@
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "tsx": "tsx --env-file=.env.local",
     "backend": "tsx --env-file=.env.local src/server.ts",
+    "backend-api": "tsx --env-file=.env.local src/api_server.ts",
     "frontend": "vite",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\""
   },
